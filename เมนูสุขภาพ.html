@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>บทความสุขภาพ - HealthyFULL</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Sarabun&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-family: 'Prompt', sans-serif;
+      font-size: 2rem;
+      color: #004d40;
+    }
+
+    .article-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .article-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+
+    .article-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .article-card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .article-card h3 {
+      color: #00695c;
+      margin: 1rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .article-card p {
+      color: #555;
+      font-size: 0.95rem;
+      margin: 0 1rem 1rem 1rem;
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div><strong>HealthyFULL</strong></div>
+    <nav>
+      <a href="index.html">หน้าหลัก</a>
+      <a href="บทความสุขภาพ.html">บทความ</a>
+      <a href="เมนูสุขภาพ.html">เมนูสุขภาพ</a>
+      <a href="เกี่ยวกับเรา.html">เกี่ยวกับเรา</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>เมนูอาหารเพื่อสุขภาพ</h1>
+
+     <div class="article-list">
+    <div class="article-card">
+      <img src="รูป/สลัดควินัว.avif" alt="อาหารต้านอนุมูลอิสระ" />
+      <h3>เมนูอาหาร สลัดควินัว</h3>
+      <p>สลัดควินัวผสมผักสด ราดน้ำสลัดมะนาว น้ำมันมะกอก รสเปรี้ยวหวาน ลงตัว</p>
+      <a href="สูตรอาหาร.html#recipe1">ดูสูตร</a>
+    </div>
+
+      <div class="article-card">
+        <img src="รูป/โจ๊กอกไก่.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร โจ๊กอกไก่ </h3>
+        <p>โจ๊กอกไก่ข้าวกล้องร้อนๆ พร้อมขิงสด หอมกลมกล่อม อร่อยง่าย</p>
+        <a href="สูตรอาหาร.html#recipe2">ดูสูตร</a>
+      </div>
+
+      <div class="article-card">
+        <img src="รูป/สมูทตี้เขียว.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร สมูทตี้เขียว </h3>
+        <p>สมูทตี้เขียวผักโขม กล้วย และนมอัลมอนด์ ปั่นเนียน ดื่มสดชื่น</p>
+        <a href="สูตรอาหาร.html#recipe3">ดูสูตร</a>
+      </div>
+
+        <div class="article-card">
+        <img src="รูป/โยเกิร์ตผลไม้รวม.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร โยเกิร์ตผลไม้รวม</h3>
+        <p>โยเกิร์ตผลไม้สดหวานอมเปรี้ยว ทานง่าย สดชื่น</p>
+        <a href="สูตรอาหาร.html#recipe4">ดูสูตร</a>
+      </div>
+    
+
+       <div class="article-card">
+        <img src="รูป/แกงจืดเต้าหู้หมูสับ.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร แกงจืดเต้าหู้หมูสับ</h3>
+        <p>แกงจืดเต้าหู้หมูสับน้ำซุปใส รสกลมกล่อม กินง่าย</p>
+          <a href="สูตรอาหาร.html#recipe5">ดูสูตร</a>
+      </div>
+
+       <div class="article-card">
+        <img src="รูป/สปาเก็ตตี้ซอสมะเขือเทศโฮมเมด.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร สปาเก็ตตี้ซอสมะเขือเทศโฮมเมด</h3>
+        <p>สปาเก็ตตี้ซอสมะเขือเทศสดหอมกระเทียม รสเข้มข้น</p>
+          <a href="สูตรอาหาร.html#recipe6">ดูสูตร</a>
+      </div>
+
+       <div class="article-card">
+        <img src="รูป/ข้าวกล้องผัดผักรวม.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร ข้าวกล้องผัดผักรวม</h3>
+        <p>ข้าวกล้องผัดผักรวมสีสวย กรอบนุ่ม มีประโยชน์สูง</p>
+        <a href="สูตรอาหาร.html#recipe7">ดูสูตร</a>
+      </div>
+
+       <div class="article-card">
+        <img src="รูป/ไก่ย่างสมุนไพร.webp" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร ไก่ย่างสมุนไพร</h3>
+        <p>ไก่ย่างสมุนไพรหมักหอมกรุ่น เนื้อนุ่มไม่แห้ง</p>
+        <a href="สูตรอาหาร.html#recipe8">ดูสูตร</a>
+      </div>
+
+       <div class="article-card">
+        <img src="รูป/ซุปฟักทอง.webp" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร ซุปฟักทอง</h3>
+        <p>ซุปฟักทองเนียนหวานธรรมชาติ ร้อนๆ อุ่นใจ</p>
+        <a href="สูตรอาหาร.html#recipe9">ดูสูตร</a>
+      </div>
+
+       <div class="article-card">
+        <img src="รูป/ปลาแซลมอนอบสมุนไพร.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร ปลาแซลมอนอบสมุนไพร</h3>
+        <p>ปลาแซลมอนอบโรสแมรี่หอม อร่อยละมุนสุขภาพดี</p>
+          <a href="สูตรอาหาร.html#recipe10">ดูสูตร</a>
+      </div>
+
+       <div class="article-card">
+        <img src="รูป/ข้าวโอ๊ตต้มกล้วยหอม.jpg" alt="อาหารต้านอนุมูลอิสระ" />
+        <h3>เมนูอาหาร ข้าวโอ๊ตต้มกล้วยหอม</h3>
+        <p>ข้าวโอ๊ตต้มกล้วยหอมหวานนุ่ม อิ่มท้องแบบเบาๆ</p>
+          <a href="สูตรอาหาร.html#recipe11">ดูสูตร</a>
+      </div>
+
+    
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 HealthyFULL  | เกี่ยวกับเรา | ติดต่อ | Privacy Policy</p>
+  </footer>
+</body>
+
+</html>

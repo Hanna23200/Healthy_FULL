@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthyFULL - เริ่มต้นสุขภาพดี</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Sarabun&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74');
+      background-size: cover;
+      background-position: center;
+      padding: 6rem 2rem;
+      color: rgb(226, 185, 71);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    .btn {
+      background-color: #a0d6b4;
+      color: #004d40;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #8ecfa5;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .articles, .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div><strong>HealthyFULL</strong></div>
+    <nav>
+      <a href="index.html">หน้าหลัก</a>
+      <a href="บทความสุขภาพ.html">บทความ</a>
+      <a href="เมนูสุขภาพ.html">เมนูสุขภาพ</a>
+      <a href="เกี่ยวกับเรา.html">เกี่ยวกับเรา</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>เริ่มต้นชีวิตที่ดีกว่า ด้วยสุขภาพที่ดี</h1>
+   
+  </section>
+
+  <section>
+    <h2>📰 บทความสุขภาพ</h2>
+    <div class="articles">
+      <div class="card">
+        <h3>อาหารต้านอนุมูลอิสระ</h3>
+        <p>รวมสุดยอดอาหารที่ช่วยชะลอวัย ปกป้องเซลล์จากความเสื่อม</p>
+        <a href="01.html#recipe1">คลิกเพื่อดูบทความ</a>
+      </div>
+
+      <div class="card">
+       <h3>วิธีเลิกติดหวาน</h3>
+        <p>แนะนำเคล็ดลับการลดน้ำตาลเพื่อสุขภาพที่ดีขึ้น</p>
+        <a href="04.html#recipe1">คลิกเพื่อดูบทความ</a>
+      </div>
+
+      <div class="card">
+     <h3>เทคนิคจัดการความเครียด</h3>
+        <p>เรียนรู้วิธีผ่อนคลายใจในช่วงเวลาที่เหนื่อยล้า</p>
+        <a href="06.html#recipe1">คลิกเพื่อดูบทความ</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <section>
+    <h2>🥗 เมนูอาหารเพื่อสุขภาพ</h2>
+    <div class="menu">
+      <div class="card">
+       <h3>ข้าวโอ๊ตต้มกล้วยหอม</h3>
+        <p>ข้าวโอ๊ตต้มกล้วยหอมหวานนุ่ม อิ่มท้องแบบเบาๆ</p>
+        <a href="สูตรอาหาร.html#recipe11">คลิกเพื่อดูสูตรอาหาร</a>
+      </div>
+
+      <div class="card">
+        <h3>โจ๊กอกไก่</h3>
+        <p>โจ๊กข้าวกล้อง อกไก่ ต้นหอม ทำได้ง่ายๆที่บ้าน</p>
+        <a href="สูตรอาหาร.html#recipe2">คลิกเพื่อดูสูตรอาหาร</a>
+      </div>
+
+      <div class="card">
+        <h3>โยเกิร์ตผลไม้รวม</h3>
+        <p>โยเกิร์ตผลไม้สดหวานอมเปรี้ยว ทานง่าย สดชื่น</p>
+        <a href="สูตรอาหาร.html#recipe4">คลิกเพื่อดูสูตรอาหาร</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+  <h2>📩 สมัครรับข่าวสาร</h2>
+  <p>รับเคล็ดลับสุขภาพส่งตรงถึงคุณทุกสัปดาห์</p>
+  <input type="email" id="emailInput" placeholder="tiered11@gmail.com" style="padding:0.5rem; width: 250px; border-radius: 6px; border: 1px solid #ccc;">
+  <button onclick="subscribe()" class="btn">สมัคร</button>
+  <p id="msg" style="color: green;"></p>
+</section>
+
+<script>
+  function subscribe() {
+    const email = document.getElementById('emailInput').value.trim();
+    const msg = document.getElementById('msg');
+
+    if (!email) {
+      msg.style.color = 'red';
+      msg.textContent = 'กรุณากรอกอีเมล';
+      return;
+    }
+    // ส่งข้อมูลไป API (ตัวอย่างสมมติ)
+    fetch('https://yourserver.com/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email })
+    })
+    .then(response => {
+      if (response.ok) {
+        msg.style.color = 'green';
+        msg.textContent = 'สมัครรับข่าวสารเรียบร้อยแล้ว!';
+        document.getElementById('emailInput').value = '';
+      } else {
+        throw new Error('สมัครไม่สำเร็จ');
+      }
+    })
+    .catch(() => {
+      msg.style.color = 'red';
+      msg.textContent = 'เกิดข้อผิดพลาด กรุณาลองใหม่';
+    });
+  }
+</script>
+
+
+  <footer>
+    <p>© 2025 HealthyFULL  | เกี่ยวกับเรา | ติดต่อ | Privacy Policy</p>
+  </footer>
+</body>
+
+</html>

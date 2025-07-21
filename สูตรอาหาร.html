@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>สูตรอาหารเพื่อสุขภาพ - HealthyFUU</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Sarabun&display=swap" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f9faf7;
+      color: #333;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #004d40;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      color: white;
+      font-weight: 700;
+      font-family: 'Prompt', sans-serif;
+      font-size: 1.3rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto 4rem auto;
+      padding: 0 1rem;
+    }
+
+    .toc {
+      background: #e8f5e9;
+      border-left: 6px solid #4caf50;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+    .toc h2 {
+      margin-top: 0;
+      color: #2e7d32;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    .toc ul {
+      list-style-type: decimal;
+      padding-left: 1.5rem;
+      margin: 0;
+    }
+
+    .toc li {
+      margin-bottom: 0.5rem;
+    }
+
+    .toc a {
+      color: #2e7d32;
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    article h3 {
+      color: #388e3c;
+      margin-top: 0;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    .ingredients, .instructions {
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .ingredients li, .instructions li {
+      margin-bottom: 0.4rem;
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+
+    footer a {
+      color: #bbf7d0;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">HealthyFUU</div>
+    <nav>
+      <a href="index.html">หน้าหลัก</a>
+      <a href="บทความสุขภาพ.html">บทความ</a>
+      <a href="เมนูสุขภาพ.html">เมนูสุขภาพ</a>
+      <a href="เกี่ยวกับเรา.html">เกี่ยวกับเรา</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="toc" id="toc">
+      <h2>สารบัญสูตรอาหารเพื่อสุขภาพ</h2>
+      <ul>
+        <li><a href="#recipe1">สลัดควินัว</a></li>
+        <li><a href="#recipe2">โจ๊กอกไก่</a></li>
+        <li><a href="#recipe3">สมูทตี้เขียว</a></li>
+        <li><a href="#recipe4">โยเกิร์ตผลไม้รวม</a></li>
+        <li><a href="#recipe5">แกงจืดเต้าหู้หมูสับ</a></li>
+        <li><a href="#recipe6">สปาเก็ตตี้ซอสมะเขือเทศโฮมเมด</a></li>
+        <li><a href="#recipe7">ข้าวกล้องผัดผักรวม</a></li>
+        <li><a href="#recipe8">ไก่ย่างสมุนไพร</a></li>
+        <li><a href="#recipe9">ซุปฟักทอง</a></li>
+        <li><a href="#recipe10">ปลาแซลมอนอบสมุนไพร</a></li>
+        <li><a href="#recipe11">ข้าวโอ๊ตต้มกล้วยหอม</a></li>
+        
+      </ul>
+    </div>
+
+   
+     <article id="recipe1">
+    <h3>1. สลัดควินัว</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ควินัว 1 ถ้วย</li>
+      <li>มะเขือเทศหั่นเต๋า 1 ลูก</li>
+      <li>แตงกวาหั่นเต๋า 1 ลูก</li>
+      <li>หอมแดงซอยบาง 1/4 หัว</li>
+      <li>น้ำมะนาว 2 ช้อนโต๊ะ</li>
+      <li>น้ำมันมะกอก 2 ช้อนโต๊ะ</li>
+      <li>เกลือและพริกไทยตามชอบ</li>
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ล้างควินัวให้สะอาดแล้วต้มในน้ำเดือดประมาณ 15 นาทีจนสุกนุ่ม</li>
+      <li>สะเด็ดน้ำแล้วพักไว้ให้เย็น</li>
+      <li>ผสมควินัวกับมะเขือเทศ แตงกวา และหอมแดงในชามใหญ่</li>
+      <li>ใส่น้ำมะนาว น้ำมันมะกอก โรยเกลือและพริกไทย คลุกเคล้าให้เข้ากัน ชิมรสตามชอบ</li>
+      <li>แช่เย็นไว้ประมาณ 30 นาที ก่อนเสิร์ฟจะยิ่งอร่อย</li>
+    </ol>
+  </article>
+
+  <article id="recipe2">
+    <h3>2. โจ๊กอกไก่ไร้ไขมัน</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ข้าวกล้อง 1/2 ถ้วย</li>
+      <li>อกไก่ต้มฉีก 100 กรัม</li>
+      <li>น้ำซุปไก่ 2 ถ้วย</li>
+      <li>ขิงซอย 1 ช้อนโต๊ะ</li>
+      <li>ต้นหอมผักชีซอย สำหรับโรยหน้า</li>
+      <li>ซีอิ๊วขาว และพริกไทยเล็กน้อย</li>
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ล้างข้าวกล้องให้สะอาด แล้วแช่น้ำประมาณ 1 ชั่วโมง</li>
+      <li>นำข้าวลงต้มในน้ำซุปไก่ จนข้าวเปื่อยนุ่ม</li>
+      <li>ใส่อกไก่ฉีกและขิงซอยลงไป เคี่ยวต่ออีก 5 นาที</li>
+      <li>ปรุงรสด้วยซีอิ๊วขาว พริกไทย</li>
+      <li>ตักใส่ถ้วย โรยหน้าด้วยต้นหอมผักชี พร้อมเสิร์ฟ</li>
+    </ol>
+  </article>
+
+  <article id="recipe3">
+    <h3>3. สมูทตี้เขียวดีท็อกซ์</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ผักโขมสด 1 ถ้วย</li>
+      <li>กล้วยหอม 1 ลูก</li>
+      <li>แอปเปิ้ลเขียว 1 ลูก</li>
+      <li>น้ำมะนาว 1 ช้อนโต๊ะ</li>
+      <li>น้ำเปล่า 1/2 ถ้วย หรือโยเกิร์ตรสธรรมชาติ</li>
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ล้างผักและผลไม้ให้สะอาด หั่นเป็นชิ้นเล็ก</li>
+      <li>ใส่ทุกอย่างลงในเครื่องปั่น ปั่นจนเนียนละเอียด</li>
+      <li>ชิมรสตามชอบ เทใส่แก้วพร้อมเสิร์ฟ</li>
+    </ol>
+  </article>
+
+
+<article id="recipe4">
+    <h3>4. โยเกิร์ตผลไม้รวม</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>โยเกิร์ตรสธรรมชาติ 1 ถ้วย</li>
+      <li>ผลไม้สด (สตรอว์เบอร์รี บลูเบอร์รี กล้วย) รวม 1 ถ้วย</li>
+      <li>น้ำผึ้ง 1 ช้อนชา (ถ้าชอบหวาน)</li>
+    
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ใส่โยเกิร์ตในถ้วย</li>
+      <li>วางผลไม้สดด้านบน</li>
+      <li>ราดน้ำผึ้งเล็กน้อย เสิร์ฟทันที</li>
+    </ol>
+  </article>
+
+
+
+<article id="recipe5">
+    <h3>5.  แกงจืดเต้าหู้หมูสับ
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ต้าหู้ขาวหั่นชิ้น 200 กรัม</li>
+      <li>หมูสับ 150 กรัม</li>
+      <li>น้ำซุปไก่ 4 ถ้วย</li>
+      <li>ผักกาดขาวหั่นชิ้น 1 ถ้วย</li>
+      <li>เกลือและพริกไทยตามชอบ</li>
+    
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ตั้งหม้อน้ำซุปให้เดือด</li>
+      <li>ปั้นหมูสับเป็นก้อนเล็กๆ ใส่ลงในน้ำซุป</li>
+      <li>ใส่เต้าหู้และผักกาดขาวลงไป</li>
+      <li>ปรุงรสด้วยเกลือและพริกไทย</li>
+      <li>ต้มจนหมูสุกและผักนุ่ม ประมาณ 5-7 นาที</li>
+      <li>ตักใส่ชาม พร้อมเสิร์ฟร้อนๆ</li>
+      
+    </ol>
+  </article>
+
+
+
+  <article id="recipe6">
+    <h3>6.สปาเก็ตตี้ซอสมะเขือเทศโฮมเมด
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>เส้นสปาเก็ตตี้ 150 กรัม</li>
+      <li>มะเขือเทศสดสุก 3 ลูก (บดละเอียด)</li>
+      <li>กระเทียมสับ 2 กลีบ</li>
+      <li>หอมใหญ่สับ 1/4 หัว</li>
+      <li>น้ำมันมะกอก 2 ช้อนโต๊ะ</li>
+      <li>เกลือและพริกไทยตามชอบ</li>
+    
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ต้มเส้นสปาเก็ตตี้ในน้ำเดือดตามเวลาข้างซองจนสุก นำขึ้นสะเด็ดน้ำ
+</li>
+      <li>ตั้งกระทะ ใส่น้ำมันมะกอก ผัดกระเทียมและหอมใหญ่จนหอม</li>
+      <li>ใส่มะเขือเทศบดลงไป เคี่ยวด้วยไฟอ่อน 10-15 นาทีจนซอสข้น</li>
+      <li>ปรุงรสด้วยเกลือและพริกไทย ชิมรสตามชอบ</li>
+      <li>ราดซอสมะเขือเทศบนเส้นสปาเก็ตตี้ คลุกเคล้าให้เข้ากัน เสิร์ฟร้อน
+</li>
+      
+    </ol>
+  </article>
+
+
+
+<article id="recipe7">
+    <h3>7.ข้าวกล้องผัดผักรวม
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ข้าวกล้องสุก 1 ถ้วย</li>
+      <li>แครอทหั่นเต๋า 1/2 ถ้วย</li>
+      <li>บรอกโคลี 1/2 ถ้วย</li>
+      <li>เห็ดหั่นชิ้น 1/2 ถ้วย</li>
+      <li>น้ำมันมะกอก 2 ช้อนโต๊ะ</li>
+       <li>ซีอิ๊วขาว 1 ช้อนโต๊ะ</li>
+        <li>กระเทียมสับ 1 ช้อนโต๊ะ</li>
+    
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ตั้งกระทะใส่น้ำมันมะกอก ผัดกระเทียมจนหอม</li>
+      <li>ใส่แครอท เห็ด และบรอกโคลี ผัดจนผักสุกเล็กน้อย</li>
+      <li>ใส่ข้าวกล้องลงไป ผัดให้เข้ากัน</li>
+      <li>เติมซีอิ๊วขาว ผัดต่ออีก 1-2 นาทีจนข้าวร้อนทั่วถึง</li>
+      <li>ปรับรสชาติตามชอบ ตักเสิร์ฟ</li>
+     
+    </ol>
+  </article>
+
+
+
+  <article id="recipe8">
+    <h3>8.ไก่ย่างสมุนไพร
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>อกไก่ 300 กรัม</li>
+      <li>กระเทียมสับ 1 ช้อนโต๊ะ</li>
+      <li>รากผักชีสับ 1 ช้อนโต๊ะ</li>
+      <li>พริกไทยดำบด 1 ช้อนชา</li>
+      <li>น้ำมันมะกอก 2 ช้อนโต๊ะ</li>
+       <li>เกลือ 1/2 ช้อนชา</li>
+       
+    
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>หมักอกไก่กับกระเทียม รากผักชี พริกไทย น้ำมันมะกอก และเกลือ หมักทิ้งไว้ 30 นาที</li>
+      <li>เปิดเตาย่างหรือกระทะ ย่างไก่จนสุกทั่วถึง ใช้ไฟกลาง-อ่อน</li>
+      <li>หั่นเป็นชิ้นเสิร์ฟคู่กับผักสดหรือสลัด</li>
+      
+     
+    </ol>
+  </article>
+
+
+
+
+   <article id="recipe9">
+    <h3>9.ซุปฟักทอง
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ฟักทองปอกเปลือกหั่นชิ้น 300 กรัม</li>
+      <li>หอมหัวใหญ่สับ 1/2 หัว</li>
+      <li>น้ำซุปผัก 3 ถ้วย</li>
+      <li>น้ำมันมะกอก 1 ช้อนโต๊ะ</li>
+      <li>เกลือและพริกไทย</li>
+   
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ตั้งหม้อน้ำมันมะกอก ผัดหอมหัวใหญ่จนใส</li>
+      <li>ใส่ฟักทองและน้ำซุปผัก ต้มจนฟักทองนุ่ม (ประมาณ 15-20 นาที)</li>
+      <li>ใช้เครื่องปั่นมือถือหรือปั่นในเครื่องปั่นจนเนียน</li>
+      <li>ปรุงรสด้วยเกลือและพริกไทย เสิร์ฟร้อน</li>
+     
+    </ol>
+  </article>
+
+
+
+<article id="recipe10">
+    <h3>10.ปลาแซลมอนอบสมุนไพร
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>เนื้อปลาแซลมอน 200 กรัม</li>
+      <li>กระเทียมสับ 1 ช้อนชา</li>
+      <li>โรสแมรี่สด 1 กิ่ง</li>
+      <li>เกลือและพริกไทย</li>
+   
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ทาน้ำมันมะกอกบนเนื้อปลา โรยเกลือพริกไทยและกระเทียม</li>
+      <li>วางโรสแมรี่บนปลา พักไว้ 10 นาที</li>
+      <li>อบที่อุณหภูมิ 180°C ประมาณ 15-20 นาทีจนปลาสุก</li>
+      <li>เสิร์ฟพร้อมผักสดหรือนึ่ง</li>
+     
+    </ol>
+  </article>
+
+<article id="recipe11">
+    <h3>11.ข้าวโอ๊ตต้มกล้วยหอม
+</h3>
+    <p><strong>วัตถุดิบ:</strong></p>
+    <ul class="ingredients">
+      <li>ข้าวโอ๊ต 1/2 ถ้วย</li>
+      <li>นมอัลมอนด์ 1 ถ้วย</li>
+      <li>กล้วยหอมสุกหั่นแว่น 1 ลูก</li>
+      <li>น้ำผึ้ง 1 ช้อนชา</li>
+   
+    </ul>
+    <p><strong>วิธีทำ:</strong></p>
+    <ol class="instructions">
+      <li>ใส่ข้าวโอ๊ตและนมอัลมอนด์ลงหม้อ ต้มไฟกลาง</li>
+      <li>คนบ่อย ๆ จนข้าวโอ๊ตเริ่มข้น</li>
+      <li>ใส่กล้วยหอมและน้ำผึ้ง คนให้เข้ากัน ต้มต่อ 2 นาที</li>
+      <li>ตักใส่ถ้วย เสิร์ฟร้อนหรือเย็นตามชอบ</li>
+     
+    </ol>
+  </article>
+
+  </main>
+
+  <footer>
+    <p>© 2025 HealthyFULL  | เกี่ยวกับเรา | ติดต่อ | Privacy Policy</p>
+  </footer>
+</body>
+
+</html>
