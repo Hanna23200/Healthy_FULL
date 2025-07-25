@@ -188,6 +188,14 @@
   <p id="msg" style="color: green;"></p>
 </section>
 
+<section>
+  <h2>📩 สมัครรับข่าวสาร</h2>
+  <p>รับเคล็ดลับสุขภาพส่งตรงถึงคุณทุกสัปดาห์</p>
+  <input type="email" id="emailInput" placeholder="@gmail.com" style="padding:0.5rem; width: 250px; border-radius: 6px; border: 1px solid #ccc;">
+  <button onclick="subscribe()" class="btn">สมัคร</button>
+  <p id="msg" style="color: green;"></p>
+</section>
+
 <script>
   function subscribe() {
     const email = document.getElementById('emailInput').value.trim();
@@ -198,8 +206,8 @@
       msg.textContent = 'กรุณากรอกอีเมล';
       return;
     }
-    // ส่งข้อมูลไป API (ตัวอย่างสมมติ)
-    fetch('https://yourserver.com/api/subscribe', {
+
+    fetch('https://script.google.com/macros/s/AKfycbyW6TgeDyl8qHX1FR2qHEkxUfPzrMirZiqmnFJcRCs/dev/exec', {  // <<== วาง URL ที่ได้จาก Google Apps Script ตรงนี้
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email })
