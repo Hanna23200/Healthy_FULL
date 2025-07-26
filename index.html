@@ -180,44 +180,35 @@
 
 
   
-<section>
+ 
+ <section>
   <h2>📩 สมัครรับข่าวสาร</h2>
   <p>รับเคล็ดลับสุขภาพส่งตรงถึงคุณทุกสัปดาห์</p>
-  <input type="email" id="emailInput" placeholder="@gmail.com" style="padding:0.5rem; width: 250px; border-radius: 6px; border: 1px solid #ccc;">
-  <button onclick="subscribe()" class="btn">สมัคร</button>
-  <p id="msg" style="color: green;"></p>
-</section>
+  
+ 
+  <a href="ชำระเงิน.html" class="btn-green">สมัคร</a>
 
-<script>
-  function subscribe() {
-    const email = document.getElementById('emailInput').value.trim();
-    const msg = document.getElementById('msg');
-
-    if (!email) {
-      msg.style.color = 'red';
-      msg.textContent = 'กรุณากรอกอีเมล';
-      return;
-    }
-
-    fetch('https://script.google.com/macros/s/AKfycbzFEK0vOBYBe22QkR9hYIjG3hp5rcUDqDW2okK59-qCEqO--GA0_4B4Y8Sk0N3pai0d/exec', {  // <<== วาง URL ที่ได้จาก Google Apps Script ตรงนี้
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email })
-    })
-    .then(response => {
-      if (response.ok) {
-        msg.style.color = 'green';
-        msg.textContent = 'สมัครรับข่าวสารเรียบร้อยแล้ว!';
-        document.getElementById('emailInput').value = '';
-      } else {
-        throw new Error('สมัครไม่สำเร็จ');
-      }
-    })
-    .catch(() => {
-      msg.style.color = 'red';
-      msg.textContent = 'เกิดข้อผิดพลาด กรุณาลองใหม่';
-    });
+<style>
+  .btn-green {
+    display: inline-block;
+    background-color: #28a745;  /* สีเขียวสด */
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Sarabun', sans-serif;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.4);
   }
+
+  .btn-green:hover {
+    background-color: #218838;  /* สีเขียวเข้มขึ้น */
+    box-shadow: 0 6px 12px rgba(33, 136, 56, 0.6);
+  }
+</style>
+
+ 
 </script>
 
 
